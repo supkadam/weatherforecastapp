@@ -1,0 +1,117 @@
+.parent{
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5px;
+  background-image: url('/Ukraine.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+.search{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  
+}
+
+#searchField{
+  width: 340px;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.726);
+  color: dimgray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#searchBtn{
+  width: fit-content;
+  height: 45px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(79, 116, 227);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 0 10px 0 10px;;
+}
+
+.child2{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.642);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+  padding: 8px;
+  color: #000000a3;
+}
+
+.child3{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.642);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+  padding: 15px;
+  /*color: #000000a3;*/
+  color: rgba(241, 62, 62, 0.637)
+}
+
+#temperature{
+  font-size: 72px;
+}
+
+#location{
+  font-size: 50px;
+}
+
+#region{
+  font-family: helvetica;
+}
+
+.child4{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+
+}
+
+.futurePrediction{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.642);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 10px;
+
+}
+
